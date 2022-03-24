@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+main div {
+    height: 33.333vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main #first-btn {
+    background-color: #90e0ef;
+}
+
+main #second-btn {
+    background-color: #00b4d8;
+}
+
+main #third-btn {
+    background-color: #0077b6;
+}
+
+main a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    background-color: #03045e;
+    color: #caf0f8;
+}
